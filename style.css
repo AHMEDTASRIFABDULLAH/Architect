@@ -1,0 +1,353 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  margin: 0 auto;
+  height: 1322px;
+  background-color: #fff4e6;
+}
+nav {
+  margin: 0 auto;
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+}
+nav li,
+a {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+.head_text {
+  text-align: center;
+  margin-top: 102px;
+}
+.head_text h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+}
+.head_text p {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 32px;
+}
+.btn {
+  width: 180px;
+  height: 64px;
+  background-color: rgb(255, 144, 14);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  margin-top: 32px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+.banner {
+  width: 1440px;
+  height: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+.img_main {
+  margin: 0 auto;
+}
+.image_section {
+  width: 1318px;
+  height: 708px;
+  margin: 0 auto;
+  margin-top: 45px;
+  display: flex;
+}
+.gridimg {
+  width: 55%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 24px;
+}
+.gridtext {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.flexcenter {
+  margin-left: 70px;
+}
+.flexcenter h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.flexcenter .span1 {
+  color: rgb(114, 114, 114);
+}
+.flexcenter .span2 {
+  color: rgb(255, 144, 14);
+}
+.flexcenter p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+}
+.mid {
+  margin: 0 auto;
+}
+.kothin {
+  width: 1440px;
+  height: 1059px;
+  margin: 0 auto;
+  margin-top: 130px;
+  display: flex;
+}
+.tag1 {
+  width: 468px;
+  height: 106px;
+  border-left: 5px solid rgb(255, 144, 14);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.tag1 h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: 21px;
+}
+.kothin_left .akla {
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.coloumn1 {
+  width: 586px;
+  height: 171px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.coloumn2 {
+  width: 586px;
+  height: 171px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+.coloumn3 {
+  width: 586px;
+  height: 171px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+.coloumn4 {
+  width: 586px;
+  height: 171px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+.kh1 {
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+.kp {
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 10px;
+}
+.kothin_left {
+  width: 44%;
+  height: 100%;
+}
+.kothin_right {
+  width: 56%;
+  height: 100%;
+}
+.kothin_right {
+  background-image: url(images/architect.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.btn2 {
+  background-color: rgb(255, 144, 14);
+  width: 342px;
+  height: 200px;
+  border: none;
+}
+.btn2 span {
+  font-size: 65px;
+  font-weight: 700;
+  color: #fff;
+}
+.btn2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 8px;
+}
+.ex {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.mini {
+  margin: 0 auto;
+}
+.minitext {
+  margin: 0 auto;
+  width: 1440px;
+  margin-top: 130px;
+}
+.minitext h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  margin-bottom: 24px;
+}
+.minitext p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 108px;
+}
+main {
+  margin: 0 auto;
+}
+.box {
+  margin: 0 auto;
+  width: 1440px;
+  height: 241.83px;
+  display: flex;
+  justify-content: center;
+  gap: 124.17px;
+}
+
+.box1 {
+  width: 241.83px;
+  height: 241.83px;
+  border: 1px solid rgb(255, 144, 14);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box1c {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.iconh1 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 53px;
+  text-align: center;
+  margin-top: 10px;
+}
+.iconp {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  margin-top: 5px;
+}
+.out-text {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 180px;
+}
+.out-text h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  margin-bottom: 24px;
+}
+.out-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.logo-section {
+  margin: 0 auto;
+}
+.logo {
+  width: 1440px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subfooter {
+  width: 1440px;
+  height: 100px;
+  border-radius: 8px;
+  background: rgb(255, 244, 231);
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.subfooter p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+}
