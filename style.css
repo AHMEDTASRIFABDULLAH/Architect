@@ -102,6 +102,7 @@ a {
   margin-top: 32px;
   border-radius: 8px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 .banner {
   width: 1440px;
@@ -256,6 +257,7 @@ a {
   width: 342px;
   height: 200px;
   border: none;
+  cursor: pointer;
 }
 .btn2 span {
   font-size: 65px;
@@ -393,7 +395,10 @@ footer {
     font-size: 25px;
     padding-left: 10px;
   }
-
+  .drop-down {
+    display: block;
+    padding-right: 20px;
+  }
   .nav_text {
     display: none;
   }
